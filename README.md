@@ -36,4 +36,29 @@ The notebook explores several aspects of Chicago's building permit data:
 - The Loop's most frequent combination of community area, review type, and permit type was an express permit.
 - The IQR analysis identified unusually high reported costs, including several extreme values that may warrant further investigation.
 
-##
+## Dataset
+
+The analysis uses the City of Chicago's public Building Permits dataset.
+
+**Source:** [City of Chicago Data Portal – Building Permits](https://data.cityofchicago.org/Buildings/Building-Permits/ydr8-5enu)
+
+To reproduce the analysis:
+
+1. Download the dataset as a CSV from the City of Chicago Data Portal.
+2. Place the downloaded CSV file in the same folder as the notebook.
+3. Rename the file to `Building_Permits_20260222-1-1.csv` if necessary.
+4. Open the notebook in Jupyter Notebook or Google Colab and run the cells in order.
+
+## Files
+
+- `project3JT.ipynb` — Jupyter Notebook containing the analysis, code, outputs, and visualizations.
+
+## Skills Demonstrated
+
+Data cleaning and preprocessing, datetime conversion, filtering, grouping and aggregation, exploratory data analysis, statistical outlier detection, and data visualization.
+
+## Notes
+
+This project was completed as part of coursework and received a score of 100%.
+
+The 2026 permit data was only available through February at the time of analysis, so comparisons with complete years should be interpreted with that limitation in mind. Reported-cost outliers may reflect unusual records or data-quality issues and should not automatically be interpreted as actual project costs.
