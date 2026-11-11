@@ -34,6 +34,12 @@ The notebook explores several aspects of Chicago's building permit data:
 
 ## Files
 - `project3JT.ipynb` — Jupyter Notebook containing the analysis, code, outputs, and visualizations.
+- ## Dataset
+The analysis uses the City of Chicago's public Building Permits dataset.
+
+**Source:** [City of Chicago Data Portal – Building Permits](https://data.cityofchicago.org/Buildings/Building-Permits/ydr8-5enu)
+
+To reproduce the analysis, download the dataset as a CSV and place it in the same folder as the notebook. Rename the downloaded file to `Building_Permits_20260222-1-1.csv` if necessary.
 
 ## Skills Demonstrated
 Data cleaning and preprocessing, datetime conversion, filtering, grouping and aggregation, exploratory data analysis, statistical outlier detection, and data visualization.
